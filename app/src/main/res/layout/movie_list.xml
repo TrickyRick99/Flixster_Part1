@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="10dp"
+    android:background="@color/black"
     >
 
 
@@ -34,6 +35,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.408"
+        android:textColor="@color/white"
         />
 
     <TextView
@@ -50,6 +52,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.502"
+        android:textColor="@color/white"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
